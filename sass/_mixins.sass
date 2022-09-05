@@ -1,0 +1,28 @@
+@mixin label
+	margin: 0 auto
+	width: 116px
+	height: 27px
+	background: #000000
+	font-weight: 400
+	font-size: 11px
+	line-height: 29px
+	text-align: center
+	text-transform: uppercase
+	color: #FFFFFF
+	
+@mixin label_white
+	margin: 0 auto
+	width: 116px
+	height: 27px
+	font-weight: 400
+	font-size: 11px
+	text-align: center
+	text-transform: uppercase
+	color: #000000
+	background: #FFFFFF
+	line-height: 31px
+
+=btn_hover
+	&:hover
+		background-image: none
+		background-color: $bl
