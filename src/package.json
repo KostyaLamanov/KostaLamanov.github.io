@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/KostyaLamanov/KostyaLamanov.github.io/issues"
   },
-  "homepage": "https://github.com/KostyaLamanov/KostyaLamanov.github.io#readme"
+  "homepage": "https://github.com/KostyaLamanov/KostyaLamanov.github.io#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^5.1.0"
+  },
+  "dependencies": {
+    "browser-sync": "^2.27.10"
+  }
 }
